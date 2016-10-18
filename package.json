@@ -1,0 +1,25 @@
+{
+  "name": "gfk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercise1.js",
+  "scripts": {
+    "compile": "webpack",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "body-parser": "^1.15.2",
+    "csv-parse": "^1.1.7",
+    "express": "^4.14.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.4"
+  }
+}
